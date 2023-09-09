@@ -1,19 +1,18 @@
 #include <stdio.h>
 
 /**
- * main - Prints the digits from 0 to 9.
+ * main - Prints numbers between 0 to 9.
  *
  * Return: Always 0 (Success)
  */
-
 int main(void)
 {
-    int num[10] = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9};
-    int i;
-    for (i = 0; i < 10; i++)
-{
-    putchar(num[i] + '0');
-}
-    putchar('\n');
-    return (0);
+	int i;
+
+	for (i = 48; i < 58; i++)
+	{
+		putchar(i);
+	}
+	putchar('\n');
+	return (0);
 }
