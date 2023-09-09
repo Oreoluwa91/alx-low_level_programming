@@ -1,19 +1,19 @@
 #include <stdio.h>
 
 /**
- * main - Prints the alphabet.
+ * main - Prints the digits from 0 to 9.
  *
  * Return: Always 0 (Success)
  */
 int main(void)
 {
-	int num[10] = {0,1,2,3,4,5,6,7,8,9};
-	int i;
+    int num[10] = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9};
+    int i;
 
-	for (i = 0; i <10; i++)
-	{
-		putchar(num[i]);
-	}
-	putchar('\n');
-	return (0);
+    for (i = 0; i < 10; i++)
+    {
+        putchar(num[i] + '0'); // Convert integer to character representation
+    }
+    putchar('\n');
+    return (0);
 }
