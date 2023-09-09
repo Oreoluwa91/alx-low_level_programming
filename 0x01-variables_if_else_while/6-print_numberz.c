@@ -12,7 +12,7 @@ int main(void)
 
     for (i = 0; i < 10; i++)
     {
-        putchar(num[i] + '0'); // Convert integer to character representation
+        putchar(num[i] + '0');
     }
     putchar('\n');
     return (0);
