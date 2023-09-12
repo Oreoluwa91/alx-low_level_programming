@@ -21,5 +21,5 @@ void print_alphabet(void)
 	{
 		putchar(alp[i]);
 	}
-	putchar('\n);
+	putchar('\n');
 }
